@@ -95,6 +95,304 @@ src="https://www.lugaresdeaventura.com/sites/default/files/inline-images/mtb.jpg
               </div>
             </div>
 
+            {/* Individual Bicycle Catalog */}
+            <div className="mt-32">
+              <div className="mb-16">
+                <h2 className="font-headline text-4xl font-bold mb-4">Catálogo Individual</h2>
+                <p className="text-on-surface-variant">Bicicletas disponibles en stock</p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {/* Mountain Bike 1 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Mountain Bike Specialized Epic Pro"
+                      src="https://images.pexels.com/photos/35615236/pexels-photo-35615236.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Specialized Epic Pro</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Mountain Bike - Full Suspension</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$4,999</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Road Bike 1 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Road Bike Trek Madone SLR"
+                      src="https://images.pexels.com/photos/8755668/pexels-photo-8755668.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Trek Madone SLR</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Road Bike - Carbon Fiber</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$6,499</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Electric Bike 1 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Electric Bike Giant Trance X+"
+                      src="https://images.pexels.com/photos/35615323/pexels-photo-35615323.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Giant Trance X+</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">E-Bike - Electric Mountain</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$5,299</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Urban Bike 1 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Urban Bike Cannondale Quick"
+                      src="https://images.pexels.com/photos/8926961/pexels-photo-8926961.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Cannondale Quick</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Urban Bike - Hybrid</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$899</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Mountain Bike 2 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Mountain Bike Santa Cruz Bronson"
+                      src="https://images.pexels.com/photos/16998814/pexels-photo-16998814.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Santa Cruz Bronson</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Mountain Bike - Enduro</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$5,799</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Road Bike 2 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Road Bike Specialized Tarmac"
+                      src="https://images.pexels.com/photos/34251794/pexels-photo-34251794.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Specialized Tarmac</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Road Bike - Race Ready</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$3,999</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Electric Bike 2 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Electric Bike Specialized Turbo Vado"
+                      src="https://images.pexels.com/photos/18584076/pexels-photo-18584076.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Specialized Turbo Vado</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">E-Bike - Urban Commuter</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$3,499</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Urban Bike 2 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Urban Bike Giant Escape 3"
+                      src="https://images.pexels.com/photos/7635132/pexels-photo-7635132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Giant Escape 3</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Urban Bike - Fitness</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$699</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Mountain Bike 3 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Mountain Bike Yeti SB150"
+                      src="https://images.pexels.com/photos/30912844/pexels-photo-30912844.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Yeti SB150</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Mountain Bike - Trail</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$6,299</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Road Bike 3 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Road Bike Pinarello Dogma F12"
+                      src="https://images.pexels.com/photos/35615236/pexels-photo-35615236.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Pinarello Dogma F12</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Road Bike - Professional</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$8,999</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Electric Bike 3 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Electric Bike Bosch eBike"
+                      src="https://images.pexels.com/photos/8755668/pexels-photo-8755668.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Bosch eBike System</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">E-Bike - All Mountain</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$4,299</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Urban Bike 3 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Urban Bike Scott Sub Cross"
+                      src="https://images.unsplash.com/photo-1507035895485-5a1c6cd6a8f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Scott Sub Cross</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Urban Bike - Gravel</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$1,299</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Mountain Bike 4 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Mountain Bike Rocky Mountain Instinct"
+                      src="https://images.unsplash.com/photo-1558622733-3c8c5f2d6c0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Rocky Mountain Instinct</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Mountain Bike - All Mountain</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$4,799</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Road Bike 4 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Road Bike Cervelo S5"
+                      src="https://images.unsplash.com/photo-1548191261-391df0ba5c2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Cervelo S5</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Road Bike - Aero</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$5,499</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Electric Bike 4 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Electric Bike Haibike XDURO"
+                      src="https://images.unsplash.com/photo-1571068316344-57298a98148a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Haibike XDURO</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">E-Bike - Trekking</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$3,899</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+
+                {/* Urban Bike 4 */}
+                <div className="bg-surface-container-low rounded-lg overflow-hidden group hover:shadow-lg transition-shadow">
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <Image
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      alt="Urban Bike Marin Fairfax"
+                      src="https://images.unsplash.com/photo-1507035895485-5a1c6cd6a8f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      fill
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-headline text-lg font-bold mb-2">Marin Fairfax</h3>
+                    <p className="text-on-surface-variant text-sm mb-2">Urban Bike - Commuter</p>
+                    <p className="font-headline text-2xl font-bold text-primary mb-3">$799</p>
+                    <Button variant="primary" size="sm" className="w-full">Ver Detalles</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="mt-16 text-center">
               <p className="text-on-surface-variant text-lg mb-8">Visítanos en tienda para ver todo nuestro inventario de accesorios y ropa de ciclismo</p>
               <Button variant="tertiary" size="lg">Visitar Tienda</Button>

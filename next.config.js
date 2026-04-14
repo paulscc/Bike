@@ -68,8 +68,23 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.shopify.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
 
-module.exports = nextConfig;
+module.exports = {
+  output:'export',
+
+};
